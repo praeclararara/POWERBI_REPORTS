@@ -15,7 +15,7 @@ On April 10, 1912 the RMS Titanic left Southhampton, England headed for New York
 ### Dataset used
 LINKS: https://hatfullofdata.blog/wp-content/uploads/2020/10/TitanicLocations.xlsx
        https://hatfullofdata.blog/wp-content/uploads/2020/10/titanicdata.csv
- ### Notes about the Dataset     
+### Notes about the Dataset     
 Pclass: A proxy for socio-economic status (SES)
 1st = Upper
 2nd = Middle
@@ -38,3 +38,27 @@ Some children travelled only with a nanny, therefore parch=0 for them.
 - Person travelling with others had more survival possibility?
 - Which age group had better chance of survival?
 - What was male and female survival per class and by age?
+
+## CASE STUDY: Swedish airpots passengertrafic from 2019 to Nov 2021
+### Datasets used
+LINKS: https://www.transportstyrelsen.se/sv/luftfart/Statistik/Flygplatsstatistik-/ 
+2021
+https://www.transportstyrelsen.se/globalassets/global/luftfart/statistik_och_analys/flygplatsstatistik-excelfiler/211112-passagerarfrekvens-per-flygplats.xlsx 
+2020
+https://www.transportstyrelsen.se/globalassets/global/luftfart/statistik_och_analys/flygplatsstatistik-excelfiler/210114-passagerarfrekvens-per-flygplats.xlsx 
+
+2019
+https://www.transportstyrelsen.se/globalassets/global/luftfart/statistik_och_analys/flygplatsstatistik-excelfiler/210115-passagerarfrekvens-per-flygplats.xlsx
+
+COVID CASES: https://datahub.io/core/covid-19 from 2020 to 2021
+
+### Notes about the Dataset
+The datasets are storing yearly passenger traffic thru each of the Swedish airports. Each year is a table, each airport is a sheet of the woorkbook.
+The workbooks are not structured tables that can be easly read by Power BI, so they require a COMPLEX CLEANING PROCESS.
+A FUNCTION wascreated in order to speed up the work and clean data on multiple excel sheets. 
+A FUNCTION was created to import multiple workbooks in Power BI and clean all the sheets using the same Power Query function.
+The columns were renamed with English translation to make the info available to a larger public.
+
+The Covid cases dataset was cleaned, filtered and imported in Power BI and linked to the other tables thru a new calendar table that was created in Power BI.
+
+### Analysis
