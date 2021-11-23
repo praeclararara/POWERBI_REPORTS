@@ -39,7 +39,7 @@ Some children travelled only with a nanny, therefore parch=0 for them.
 - Which age group had better chance of survival?
 - What was male and female survival per class and by age?
 
-## CASE STUDY: Swedish airpots passengertrafic from 2019 to Nov 2021
+## CASE STUDY: Swedish airpots passenger trafic from 2019 to Nov 2021
 ### Datasets used
 LINKS: https://www.transportstyrelsen.se/sv/luftfart/Statistik/Flygplatsstatistik-/ 
 2021
