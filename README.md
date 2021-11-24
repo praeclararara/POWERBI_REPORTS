@@ -62,3 +62,10 @@ The columns were renamed with English translation to make the info available to 
 The Covid cases dataset was cleaned, filtered and imported in Power BI and linked to the other tables thru a new calendar table that was created in Power BI.
 
 ### Analysis
+As expected, there has been a deep dive on passenger traffic from 2019 due to Covid-19 with international traffic paying an higher price than domestic traffic.
+
+However the report shows an increase of the number of travelers starting from May 2021 despite the numbers of confirmed cases of Covid-19 where close to the ones for the months of 2020 Summer.
+Probably these factors influenced the higher mobility:
+-Sweden removed travel restrictions against their Nordic neighbors from May 2021;
+-travelers from other EU/EEA countries had permission to enter Sweden upon presenting a negative Covid-19 test thru June but the recommendation to get tested again upon arrival and self-isolate from seven days was relaxed from June 1.
+-On 5 May 2021, the Stockholm region began its phase 4, opening up vaccination slots to people aged 55 to 59. On 14 June 2021, over half of Swedish adults had received at least one vaccine dose, with 27% fully vaccinated (source Wikipedia: https://en.wikipedia.org/wiki/COVID-19_vaccination_in_Sweden )
