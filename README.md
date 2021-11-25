@@ -9,8 +9,8 @@ The value proposition is not about data itself. It's about curation, availabilit
 It goes from needing data to having data in seconds. On the other hand, data consumers can leverage open data and combine it with internal data to generate insights and create values for the economy. In this course, you will use data found on Government of Canada Open Data Portal and apply most practical tools and techniques to make open data consumable, visualize trends and patterns,
 and present conclusions and recommendations to general public.
 
-## CASE STUDY: Calgary Fire Emergency Response calls (updated to Jan 2020)
-LINK TO DATASET: https://data.calgary.ca/Government/Fire-Emergency-Response-Calls/bdez-pds9/data
+## CASE STUDY: Calgary Community Crime Statistics (updated Nov 2021)
+LINK TO DATASET: https://data.calgary.ca/Health-and-Safety/Community-Crime-Statistics/78gh-n26t/data
 
 ## CASE STUDY: Titanic dataset analysis
 ### Background
