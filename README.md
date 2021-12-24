@@ -73,7 +73,7 @@ Probably these factors influenced the higher mobility:
 -travelers from other EU/EEA countries had permission to enter Sweden upon presenting a negative Covid-19 test thru June but the recommendation to get tested again upon arrival and self-isolate from seven days was relaxed from June 1.
 -On 5 May 2021, the Stockholm region began its phase 4, opening up vaccination slots to people aged 55 to 59. On 14 June 2021, over half of Swedish adults had received at least one vaccine dose, with 27% fully vaccinated (source Wikipedia: https://en.wikipedia.org/wiki/COVID-19_vaccination_in_Sweden )
 
-## PROJECT: May the force be with you
+## PROJECT: May the force be with you - STAR WARS species' BMI
 ### Overview
 Power Bi really got the force of data cleaning and automation.
 The report uses a web service, [SWAPI](https://swapi.dev/) – The Star Wars API to import all the characters from Star Wars, it then appends multiple JSON pages (thru query functions), calculates their BMI, and builds relationship between characters and species to get further insights by species.
@@ -102,5 +102,5 @@ From “source” rc on the count of people to get a “new query” renamed “
 -we created a measure Count of People = COUNTROWS(People) to use in a visual with “species” and in another with “category”
 -using the “what if factor” we got a “Droid Factor” parameter, starting at 0.1, ending at 1 with increment of 0.1 (this will allow the user flexibility to increment the BMI for the droids on a slider, since droids are made of metal, therefore heavier than other species with regular BMI)
 -we wrapped the Droid factor parameter into a measure “Droid BMI” = [BMI2] * 'Droid Factor'[Droid Factor Value]
-- then we created a measure “Galactic BMI” to assess the BMI of droids based on their custom “Droid BMI” and the BMI of Hutts (10% of average BMI) creating the measure: Galactic BMI = AVERAGEX (VALUES(Get_Species), SWITCH (Get_Species[name], "Droid", [Droid BMI], "Hutt", [BMI2]/10, [BMI2]))
+-then we created a measure “Galactic BMI” to assess the BMI of droids based on their custom “Droid BMI” and the BMI of Hutts (10% of average BMI) creating the measure: Galactic BMI = AVERAGEX (VALUES(Get_Species), SWITCH (Get_Species[name], "Droid", [Droid BMI], "Hutt", [BMI2]/10, [BMI2]))
 
