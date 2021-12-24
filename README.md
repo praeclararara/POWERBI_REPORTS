@@ -12,6 +12,13 @@ and present conclusions and recommendations to general public.
 ## CASE STUDY: Calgary Community Crime Statistics (updated Nov 2021)
 LINK TO DATASET: https://data.calgary.ca/Health-and-Safety/Community-Crime-Statistics/78gh-n26t/data
 
+## CASE STUDY: Toronto neighborhoods’ rating tool using AirBnB data
+
+●	analyzed Toronto AirBnB market size (average price, number of listings, number of reviews over time)
+●	Does AirBnB really affect Toronto long-term rental supply? (Availability analysis, listings per host)
+●	Data manipulation and visualization (fetch data from web-source to Power BI, data cleaning, using GEOJSON data creating a shape map)
+
+
 ## CASE STUDY: Titanic dataset analysis
 ### Background
 On April 10, 1912 the RMS Titanic left Southhampton, England headed for New York. Aboard were 2,435 passengers and 892 crew members. Five days later, about 20 minutes before midnight, the Titanic hit an iceberg in the frigid waters about 375 miles south of New Foundland. Within approximately two and a half hours the ship had split apart and sunk, leaving just over 700 survivors.
